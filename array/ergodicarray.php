@@ -39,7 +39,6 @@ foreach ($produce as $p => $pv) {
     while (list($item, $value) = each($pv)) {
         echo $item . '---' . $value . '   ';
     }
-
     echo "</br>";
 }
 
