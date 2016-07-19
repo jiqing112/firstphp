@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21f05b8-fc8e-42b1-a2be-6fe0b4eaa2a0" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/htdocs.iml" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test.php" afterPath="$PROJECT_DIR$/test/testphp.php" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +57,7 @@
       <file leaf-file-name="git基本命令集合" pinned="false" current-in-tab="true">
         <entry file="file://E:/learngit/Git学习笔记/git基本命令集合">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="150">
               <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
@@ -281,12 +278,12 @@
       <workItem from="1468721663660" duration="15000" />
       <workItem from="1468721730290" duration="653000" />
       <workItem from="1468722428022" duration="2957000" />
-      <workItem from="1468912752020" duration="2722000" />
+      <workItem from="1468912752020" duration="3328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45691000" />
+    <option name="totallyTimeSpent" value="46297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,7 +681,7 @@
     </entry>
     <entry file="file://E:/learngit/Git学习笔记/git基本命令集合">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="150">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
