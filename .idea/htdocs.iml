@@ -4,6 +4,9 @@
     <content url="file://E:/learngit" />
     <content url="file://$MODULE_DIR$/../bootstrap" />
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../mvc" />
+    <content url="file://$MODULE_DIR$/../smarty" />
+    <content url="file://$MODULE_DIR$/../thinkphp" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -1,0 +1,10 @@
+1.每个页面必须开启session_start()才能共享session数据
+2.需要登录验证的页面加上一下代码，类似java过滤器（需优化）
+if (isset($_SESSION['username'])){
+      $home_url = 'success.php';
+  }
+  else{
+      $home_url = 'index.php';
+      header('Location:'.$home_url);
+  }
+3.
