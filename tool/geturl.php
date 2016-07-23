@@ -9,6 +9,9 @@
 #测试网址:     http://localhost/blog/testurl.php?id=5
 
 //获取域名或主机地址
+echo $_SERVER['SERVER_NAME']."<br>";
+echo $_SERVER['REQUEST_URI']."<br>";
+
 echo $_SERVER['HTTP_HOST']."<br>"; #localhost
 
 //获取网页地址

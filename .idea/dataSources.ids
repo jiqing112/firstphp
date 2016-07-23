@@ -11,24 +11,49 @@
       <table id="2" parent="1" name="t_user">
         <comment>用户基本信息</comment>
       </table>
-      <column id="3" parent="2" name="id">
+      <table id="3" parent="1" name="t_article"/>
+      <column id="4" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(10)</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="4" parent="2" name="username">
+      <column id="5" parent="2" name="username">
         <mandatory>1</mandatory>
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="5" parent="2" name="password">
+      <column id="6" parent="2" name="password">
         <mandatory>1</mandatory>
         <data-type>varchar(10)</data-type>
       </column>
-      <column id="6" parent="2" name="age">
+      <column id="7" parent="2" name="age">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <key id="7" parent="2" name="PRIMARY">
+      <key id="8" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="9" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="10" parent="3" name="title">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="11" parent="3" name="author">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="12" parent="3" name="discription">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="13" parent="3" name="content">
+        <data-type>text</data-type>
+      </column>
+      <column id="14" parent="3" name="dateline">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="15" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
