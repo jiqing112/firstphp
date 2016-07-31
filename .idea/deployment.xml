@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="test">
+    <serverData>
+      <paths name="test">
+        <serverdata>
+          <mappings>
+            <mapping local="E:/learngit" web="/" />
+            <mapping local="$PROJECT_DIR$/../bootstrap" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$/../mvc" web="/" />
+            <mapping local="$PROJECT_DIR$/../myblog" web="/" />
+            <mapping local="$PROJECT_DIR$/../pdo" web="/" />
+            <mapping local="$PROJECT_DIR$/../regextest" web="/" />
+            <mapping local="$PROJECT_DIR$/../smarty" web="/" />
+            <mapping local="$PROJECT_DIR$/../thinkphp" web="/" />
+            <mapping local="$PROJECT_DIR$/.." />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
